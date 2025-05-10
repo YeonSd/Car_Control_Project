@@ -37,7 +37,10 @@
 
 ###  고급 명령어 및 복구 관련
 
-- `git add -A`  
+- `git rm [파일명]`  
+  → *Git의 추적 대상에서 파일을 제거하고, 실제 디스크에서도 삭제*
+
+  - `git add -A`  
   → *변경된 모든 파일을 한꺼번에 스테이징*
 
 - `git restore <파일이름>`  
@@ -51,6 +54,23 @@
 
 - `git revert <커밋해시값>`  
   → *지정한 커밋의 반대 내용을 새 커밋으로 생성하여 되돌림 (히스토리 보존)*
+
+---
+# Cube IDE연동
+### 환경 구축
+https://m.blog.naver.com/musk95/221900982612  참조
+<br>
+### 인증 토큰 생성
+https://github.com/settings/tokens
+<br>
+Repository access에 All repository 체크
+<br>
+Repository permissions, Account permissions 영역 모두 체크
+<br>
+read & write 에 체크, read 만 있으면 read만 체크<br>
+생성 후 토큰 코드 복사
+<br>
+CubeIDE에서 패스워드 입력란에 토큰 코드 붙혀넣기, 아이디는 GitHub ID 입력
 
 ---
 # Cube IDE에서 Push 시도 요약
