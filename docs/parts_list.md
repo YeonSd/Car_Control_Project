@@ -3,10 +3,9 @@
 board
 | 품목 | 용도 | 수량 |
 | ------ | ------ |------ |
-| STM32F103C8T6 | controller MCU |1|
+| STM32F103C8T6 | controller MCU , car_status MCU (can slave2) |2|
 | STM32F446RE | car_central MCU (can master) |1|
 | STM32F411RE | car_sensor MCU (can slave1) |1|
-| STM32F103C8T6 | car_status MCU (can slave2) |1|  
 <br/>
 
 Sensor
