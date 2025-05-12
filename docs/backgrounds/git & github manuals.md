@@ -109,6 +109,26 @@ Pull 먼저, Push는 나중에 : 같이 하는 사람 코드가 최신일 수도
 ### ! 충돌 발생 시 해결 법 
 -> 
 
+---
+
+## 새로운 Repository 생성시
+
+## 해당 디렉토리 내부에서 터미널열고
+	git init
+## 디렉토리 내부에 폴더나 파일 넣고
+	git add 폴더명(파일명은 확장자까지)
+## 커밋
+	git commit -m "message"
+
+## main 브랜치 생성
+	git branch -M main
+ 
+## 원격과 연동
+	git remote add origin https://github.com/YeonsuJ/리포지토리명.git
+ 
+## 로컬에서 원격으로 push
+	git push -u origin main
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
