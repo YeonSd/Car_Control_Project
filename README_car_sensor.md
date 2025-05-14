@@ -3,6 +3,8 @@
 
 ## 담당기능
 
+CAN slave
+
 Free RTOS(보류)
 
 Ultrasonic sensor
@@ -16,7 +18,4 @@ MPU-6050 gyro sensor(보류)
 
 
 ## 하위 폴더
-
-
-
 
