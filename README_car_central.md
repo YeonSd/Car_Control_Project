@@ -2,13 +2,20 @@
 
 사용한 mcu : cortex-m4 (stm32f446re)
 
-담당기능
+## 담당기능
 
 Free RTOS
 
+DC motor
+
 Servo motor
 
-Dc motor
+RF communication
 
-하위 폴더 
+CAN master
 
+
+
+
+
+## 하위 폴더
