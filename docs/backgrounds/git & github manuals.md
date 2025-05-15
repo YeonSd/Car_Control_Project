@@ -37,9 +37,10 @@ ex) 문서 > car_control_project 폴더 생성
 	git remote add origin https://github.com/YeonSd/STM32_Car_Control_Project.git
 (내 컴퓨터 코드와 GitHub 리포지터리가 연결됨)
 
-### 6. 원격에서 내 로컬로 가져오기
+### 6. 원격에서 내 로컬로 모든 브랜치 설정 전부 가져오기
 
- 	git fetch origin
+ 	for branch in $(git branch -r | grep -v '\->'); do
+  	git branch --track "${branch#origin/}" "$branch" done
 
 ---
 
